@@ -1,0 +1,53 @@
+/* DEPENDENCES: BOOTSTRAP, ANIMATE */
+@font-face {
+    
+  }
+body, html {
+    font-family: 'Press Start 2P', cursive;
+    background: url(./bg.png);
+    padding: 30px;
+}
+
+/* basic */
+.invisible {
+    display: none;
+}
+
+
+#main, .main, main {
+    margin: auto;
+    max-width: 900px;
+    border:rgb(213, 213, 213) solid 10px;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    padding: 15px;
+}
+
+#nft-view {
+    min-height: 100px;
+    background: #000;
+    overflow-x: scroll;
+    /* overflow-y: hidden; */
+    border:rgb(213, 213, 213) solid;
+    border-width: 10px 20px;
+    margin: 40px 20px;
+    max-height: 220px;
+    
+}
+
+.nft-wrap {
+    display: inline;
+    margin: 5px;
+    height: 200px;
+    max-width: 180px;
+    /* overflow: hidden; */
+
+}
+.nft {
+    width: 180px;
+    height: 200px;
+}
+
+#nfts {
+    overflow-x: scroll;
+}
